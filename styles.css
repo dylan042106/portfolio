@@ -1,1 +1,71 @@
- 
+* {
+  display: border-box;
+}
+body {
+  background-color: rgb(5, 5, 5);
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+#home_link_words {
+  color: white;
+  text-shadow: 0 0 7px #ffffffee, 0 0 10px #57a8f4ee, 0 0 10px #57a8f4ee,
+    0 0 10px #57a8f4ee;
+  text-decoration: none;
+}
+#home_link_words:hover {
+  color: #57a8f4ee;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+#about_me_link_words {
+  color: white;
+  text-shadow: 0 0 7px #ffffffee, 0 0 10px #57a8f4ee, 0 0 10px #57a8f4ee,
+    0 0 10px #57a8f4ee;
+  text-decoration: none;
+}
+#about_me_link_words:hover {
+  color: #57a8f4ee;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+#skills_link_words {
+  color: white;
+  text-shadow: 0 0 7px #ffffffee, 0 0 10px #57a8f4ee, 0 0 10px #57a8f4ee,
+    0 0 10px #57a8f4ee;
+  text-decoration: none;
+}
+
+#skills_link_words:hover {
+  color: #57a8f4ee;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+#projects_link_words {
+  color: white;
+  text-shadow: 0 0 7px #ffffffee, 0 0 10px #57a8f4ee, 0 0 10px #57a8f4ee,
+    0 0 10px #57a8f4ee;
+  text-decoration: none;
+}
+
+#projects_link_words:hover {
+  color: #57a8f4ee;
+  text-shadow: none;
+  font-weight: bold;
+}
+
+#contact_link_words {
+  color: white;
+  text-shadow: 0 0 7px #ffffffee, 0 0 10px #57a8f4ee, 0 0 10px #57a8f4ee,
+    0 0 10px #57a8f4ee;
+  text-decoration: none;
+}
+
+#contact_link_words:hover {
+  color: #57a8f4ee;
+  text-shadow: none;
+  font-weight: bold;
+}

@@ -1,1 +1,26 @@
- 
+.top_nav_bar_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexbox_nav_links {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: right;
+  margin-right: 5%;
+}
+
+.flexbox_item_nav {
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.flexbox_logo_link {
+  margin-left: 5%;
+}
+
+.introduction_section {
+  display: flex;
+  justify-content: space-around;
+}

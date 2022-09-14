@@ -1,1 +1,208 @@
- 
+.container {
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: 7% auto auto auto auto auto;
+  grid-row-gap: 2em;
+}
+.top_nav_bar_section {
+  position: fixed;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  width: 100vw;
+  height: 15vh;
+  background-color: rgb(35, 35, 35);
+  font-size: 135%;
+  box-shadow: #57a8f4ee 0px 5px 10px;
+  z-index: 1000;
+  border-bottom: 1px solid #57a8f4ee;
+}
+.introduction_section {
+  grid-column: 1 / -1;
+  grid-row: 2 / 3;
+}
+.about_me_section {
+  grid-column: 1 / -1;
+  grid-row: 3 / 4;
+}
+
+.skillset_section {
+  grid-column: 1 / -1;
+  grid-row: 4 / 5;
+}
+
+.projects_section {
+  grid-column: 1 / -1;
+  grid-row: 5 / 6;
+}
+.contact_section {
+  grid-column: 1 / -1;
+  grid-row: 6 / -1;
+  background-color: black;
+}
+
+.name_and_intro_box {
+  background-color: rgb(41, 41, 41);
+  border-radius: 1.3em;
+}
+.design_box {
+  background-color: rgb(41, 41, 41);
+  border-radius: 1.3em;
+}
+
+.about_me_box {
+  background-color: rgb(41, 41, 41);
+  width: 80%;
+  border-radius: 1.3em;
+  margin: 5em 8em;
+  padding: 10em;
+}
+#skills_heading {
+  grid-column: 1 / -1;
+  grid-row: 1 / 2;
+  text-align: center;
+  padding-bottom: 4em;
+}
+.skill_one {
+  background-color: rgb(41, 41, 41);
+  width: 50%;
+  height: auto;
+  text-align: center;
+  padding: 2em;
+  padding-top: 3.7em;
+  margin-left: 0.3em;
+  border-radius: 1.3em;
+}
+.skill_two {
+  background-color: rgb(41, 41, 41);
+  width: 50%;
+  height: auto;
+  text-align: center;
+  padding: 2em;
+  padding-top: 3.7em;
+  border-radius: 1.3em;
+  margin-left: 1.5em;
+}
+.skill_three {
+  background-color: rgb(41, 41, 41);
+  width: 50%;
+  height: auto;
+  text-align: center;
+  padding: 2em;
+  padding-top: 3.7em;
+  border-radius: 1.3em;
+  margin-right: 1.5em;
+}
+.skill_four {
+  background-color: rgb(41, 41, 41);
+  width: 50%;
+  height: auto;
+  text-align: center;
+  padding: 2em;
+  padding-top: 3.7em;
+  margin-right: 1.5em;
+  border-radius: 1.3em;
+}
+
+.project_1_container {
+  background-color: rgb(41, 41, 41);
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  padding: 5em;
+  border-radius: 0.5em;
+}
+
+.image_project_one {
+  text-align: center;
+  background-color: rgb(18, 17, 17);
+  width: 70;
+  height: 25em;
+  margin: auto;
+  border: 1px white solid;
+  border-bottom-color: black;
+  border-radius: 0.5em;
+  padding-bottom: 4em;
+}
+
+.image_project_two {
+  text-align: center;
+  background-color: rgb(18, 17, 17);
+  width: 81.27%;
+  height: 25em;
+  margin: auto 0em;
+  border: 1px white solid;
+  border-bottom-color: black;
+  border-radius: 0.5em;
+}
+.project_2_container {
+  background-color: rgb(41, 41, 41);
+  width: 70%;
+  margin: auto 0em;
+  text-align: left;
+  padding: 5em;
+  border-radius: 0.5em;
+}
+
+.image_project_three_proj {
+  text-align: center;
+  background-color: rgb(18, 17, 17);
+  width: 81.57%;
+  height: 25em;
+  margin: auto;
+  border: 1px white solid;
+  border-bottom-color: black;
+  border-radius: 0.5em;
+}
+
+.project_3_container {
+  background-color: rgb(41, 41, 41);
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  padding: 5em;
+  border-radius: 0.5em;
+}
+
+.image_project_four {
+  text-align: center;
+  background-color: rgb(18, 17, 17);
+  width: 81.57%;
+  height: 25em;
+  margin: auto;
+  border: 1px white solid;
+  border-bottom-color: black;
+  border-radius: 0.5em;
+}
+.project_4_container {
+  background-color: rgb(41, 41, 41);
+  width: 70%;
+  margin: auto;
+  text-align: left;
+  padding: 5em;
+  border-radius: 0.5em;
+}
+
+.project_one_card {
+  width: auto;
+  margin-bottom: 10em;
+  padding: 1em;
+}
+
+.project_two_card {
+  width: auto;
+  margin-bottom: 10em;
+  padding: 1em;
+}
+
+.project_three_card {
+  width: auto;
+  margin-bottom: 10em;
+  padding: 1em;
+}
+
+.project_four_card {
+  width: auto;
+  margin-bottom: 10em;
+  padding: 1em;
+}
