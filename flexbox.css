@@ -2,26 +2,11 @@
   display: none;
 }
 
-.flexbox_nav_links {
-  display: flex;
-  justify-content: space-evenly;
-  text-align: right;
-  margin-right: 5%;
-}
-
-.flexbox_item_nav {
-  padding-left: 2em;
-  padding-right: 2em;
-}
-
-.flexbox_logo_link {
-  margin-left: 5%;
-}
-
 .introduction_section {
   display: flex;
   flex-direction: column;
-  padding: 0em 2em;
+  padding: 0em 4em;
+  gap: 2em;
 }
 
 .name_and_intro_box {
@@ -61,8 +46,134 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 2em;
 }
 
-.flexbox_skills_section {
-  display: block;
+.flexbox_skills_container {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.skill_four {
+  margin-bottom: 7em;
+}
+
+.projects_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4em;
+}
+
+.project_one_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project_one_card_upper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 4em 0em;
+}
+
+.project_one_card_lower {
+  border: 1px solid white;
+  padding: 0em 2em;
+}
+
+.project_two_card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project_two_card_upper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 4em 0em;
+}
+
+.project_two_card_lower {
+  border: 1px solid white;
+  padding: 0em 2em;
+}
+
+.project_three_card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7em;
+}
+
+.project_three_card_upper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+  padding: 4em 0em;
+}
+
+.project_three_card_lower {
+  border: 1px solid white;
+  padding: 0em 2em;
+}
+
+.flexbox_contact_image_links_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 3em 0em;
+}
+
+.github_image_link {
+  background-color: rgb(41, 41, 41);
+  border: 1px solid white;
+  padding: 0em 1em;
+}
+
+.linkedIn_image_link {
+  background-color: rgb(41, 41, 41);
+  border: 1px solid white;
+  padding: 0em 1em;
+}
+
+.replit_image_link {
+  background-color: rgb(41, 41, 41);
+  border: 1px solid white;
+  padding: 0em 1em;
+}
+
+.email_image_link {
+  background-color: rgb(41, 41, 41);
+  border: 1px solid white;
+  padding: 0em 1em;
+}
+
+@media (min-width: 768px) {
+  .top_nav_bar_section {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    justify-content: space-evenly;
+    position: fixed;
+    width: 100vw;
+    min-height: 7vh;
+    background-color: rgb(35, 35, 35);
+    font-size: minmax(1em, 2em);
+    box-shadow: #000000ee 0px 5px 10px;
+    z-index: 1000;
+    border-bottom: 1px solid #000000ee;
+  }
+
+  .flexbox_nav_links {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    gap: 4em;
+  }
+
+  .introduction_section {
+    margin-top: 6em;
+  }
 }

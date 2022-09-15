@@ -1,23 +1,9 @@
 .container {
   color: white;
   display: grid;
-  grid-template-columns: minmax(320px, 60em);
+  grid-template-columns: minmax(320px, auto);
   grid-template-rows: auto auto auto auto auto;
-
 }
-
-
-/*.top_nav_bar_section {
-  position: fixed;
-  grid-column: 1 / -1;
-  width: 100vw;
-  height: 12vh;
-  background-color: rgb(35, 35, 35);
-  font-size: 135%;
-  box-shadow: #000000ee 0px 5px 10px;
-  z-index: 1000;
-  border-bottom: 1px solid #000000ee;
-}*/
 
 .introduction_section {
   grid-column: 1 / -1;
@@ -93,54 +79,76 @@
   border-radius: 1.3em;
 }
 
-.project_1_container {
-  background-color: rgb(41, 41, 41);
-  width: auto;
-  padding: 5em;
-  border-radius: 0.5em;
+.project_one_card_lower {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto auto;
 }
 
-.project_2_container {
-  background-color: rgb(41, 41, 41);
-  width: auto;
-  padding: 5em;
-  border-radius: 0.5em;
+.project_one_name {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
 
-.project_3_container {
-  background-color: rgb(41, 41, 41);
-  width: auto;
-  padding: 5em;
-  border-radius: 0.5em;
+.project_one_short_desc {
+  grid-row: 2 / 3;
+  grid-column: 1 / -1;
 }
 
-.project_4_container {
-  background-color: rgb(41, 41, 41);
-  width: auto;
-  padding: 5em;
-  border-radius: 0.5em;
+.project_one_lang_used_box {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  text-align: right;
 }
 
-.project_one_card {
-  width: auto;
-  margin-bottom: 10em;
-  padding: 1em;
+.project_two_card_lower {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto auto;
 }
 
-.project_two_card {
-  width: auto;
-  margin-bottom: 10em;
-  padding: 1em;
+.project_two_name {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
 
-.project_three_card {
-  width: auto;
-  margin-bottom: 10em;
-  padding: 1em;
+.project_two_short_desc {
+  grid-row: 2 / 3;
+  grid-column: 1 / -1;
 }
 
-.project_four_card {
-  width: auto;
-  margin-bottom: 10em;
-  padding: 1em;
+.project_two_lang_used_box {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  text-align: right;
+}
+
+.project_three_card_lower {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto auto;
+}
+
+.project_three_name {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+
+.project_three_short_desc {
+  grid-row: 2 / 3;
+  grid-column: 1 / -1;
+}
+
+.project_three_lang_used_box {
+  grid-column: 2 / -1;
+  grid-row: 1 / 2;
+  text-align: right;
+}
+
+@media (min-width: 768px) {
+  .skillset_section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, auto);
+  }
 }

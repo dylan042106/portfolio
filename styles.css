@@ -15,7 +15,7 @@ body {
   text-decoration: none;
 }
 #home_link_words:hover {
-  color: #57a8f4ee;
+  color: #57a8f5ee;
   text-shadow: none;
   font-weight: bold;
 }
@@ -93,4 +93,10 @@ body {
 
 .number_six {
   margin-right: 0.7em;
+}
+
+@media (min-width: 768px) {
+  .introduction_section {
+    margin-top: 6em;
+  }
 }
