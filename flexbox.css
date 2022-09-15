@@ -1,7 +1,5 @@
 .top_nav_bar_section {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: none;
 }
 
 .flexbox_nav_links {
@@ -22,5 +20,49 @@
 
 .introduction_section {
   display: flex;
-  justify-content: space-around;
+  flex-direction: column;
+  padding: 0em 2em;
+}
+
+.name_and_intro_box {
+  text-align: center;
+  margin: 2em 0em;
+  padding: 1em;
+}
+
+.second_line {
+  font-weight: bold;
+}
+
+.design_box {
+  font-size: 0.9em;
+  margin-bottom: 7em;
+  padding: 1em;
+}
+
+.about_me_section {
+  display: flex;
+  flex-direction: column;
+  padding: 0em 2em;
+}
+.header_box {
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+.para_box {
+  padding: 1em;
+  margin-bottom: 7em;
+}
+
+.skillset_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox_skills_section {
+  display: block;
 }

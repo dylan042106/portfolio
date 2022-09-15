@@ -1,6 +1,7 @@
 * {
-  display: border-box;
+  box-sizing: border-box;
 }
+
 body {
   background-color: rgb(5, 5, 5);
   margin: 0;
@@ -68,4 +69,28 @@ body {
   color: #57a8f4ee;
   text-shadow: none;
   font-weight: bold;
+}
+
+.number_one {
+  margin-right: 0.5em;
+}
+
+.number_two {
+  margin-right: 2em;
+}
+
+.number_three {
+  margin-right: 2em;
+}
+
+.number_four {
+  margin-right: 2em;
+}
+
+.number_five {
+  margin-right: 2em;
+}
+
+.number_six {
+  margin-right: 0.7em;
 }
