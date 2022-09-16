@@ -35,18 +35,16 @@
 }
 
 .name_and_intro_box {
-  background-color: rgb(41, 41, 41);
+  line-height: 1.25rem;
   border-radius: 1.3em;
 }
 .design_box {
   background-color: rgb(41, 41, 41);
   border-radius: 1.3em;
+  box-shadow: 1.5px black;
 }
 
-.about_me_box {
-  background-color: rgb(41, 41, 41);
-  border-radius: 1.3em;
-}
+
 
 #skills_heading {
   grid-column: 1 / -1;
@@ -145,10 +143,12 @@
   text-align: right;
 }
 
-@media (min-width: 768px) {
-  .skillset_section {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, auto);
+
+@media (min-width: 425px) {
+  .flexbox_skills_container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
+}
 }

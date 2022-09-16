@@ -3,7 +3,9 @@
 }
 
 body {
-  background-color: rgb(5, 5, 5);
+  clip-path: polygon(0 0, 100% 0, 100% 32%, 100% 58%, 81% 23%, 50% 20%, 25% 10%, 0 9%);
+  font-size: calc(12px + 0.4vw);
+  background-color: hsl(0, 1%, 11%);
   margin: 0;
   font-family: Montserrat, sans-serif;
 }
@@ -15,7 +17,7 @@ body {
   text-decoration: none;
 }
 #home_link_words:hover {
-  color: #57a8f5ee;
+  color: #57a8f4ee;
   text-shadow: none;
   font-weight: bold;
 }
@@ -94,6 +96,25 @@ body {
 .number_six {
   margin-right: 0.7em;
 }
+
+.button_resume {
+  background: linear-gradient(134deg, #57a8f4ee 1%, #57a8f4ee 99%);
+  color: rgb(248, 248, 248);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease 0s;
+  min-width: min-width(15%);
+  height: auto;
+  font-size: 12px;
+  padding: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  display: block;
+  margin: 4em 0em;
+  font-weight: bold;
+}
+
+
 
 @media (min-width: 768px) {
   .introduction_section {
