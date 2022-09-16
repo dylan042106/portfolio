@@ -1,4 +1,10 @@
-
+.top_nav_bar_section {
+  display: none;
+}
+.projects_wrapper {
+  padding: 4rem;
+  gap: 7rem;
+}
 .introduction_section {
   display: flex;
   justify-content: center;
@@ -25,7 +31,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   padding: 0em 2em;
   margin-top: 10rem;
   margin-bottom: 10rem;
@@ -53,6 +60,7 @@
   flex-wrap: wrap;
   gap: 2em;
   margin: auto;
+  margin-bottom: 6rem;
 }
 
 .flexbox_nav_links {
@@ -82,7 +90,7 @@
 }
 
 .project_one_card_lower {
-  border: 1px solid white;
+  border: 2px solid white;
   padding: 0em 2em;
 }
 
@@ -99,7 +107,9 @@
 }
 
 .project_two_card_lower {
-  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  border-radius: 1.3em;
+  border: 2px solid white;
   padding: 0em 2em;
 }
 
@@ -112,19 +122,21 @@
 .project_three_card_upper {
   display: flex;
   justify-content: center;
-  border: 1px solid white;
+  border: 2px solid white;
   padding: 4em 0em;
 }
 
 .project_three_card_lower {
-  border: 1px solid white;
+  background-color: rgb(41, 41, 41);
+  border-radius: 1.3em;
+  border: 2px solid white;
   padding: 0em 2em;
 }
 
 .flexbox_contact_image_links_box {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
   text-align: center;
 }
 
@@ -150,6 +162,18 @@
   background-color: rgb(41, 41, 41);
 }
 
+.aboutme_box_two {
+  background-color: rgb(41, 41, 41);
+  border-radius: 1.3em;
+  font-size: 0.9em;
+  margin-bottom: 7em;
+  padding: 1em;
+}
+
+.code_box {
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .top_nav_bar_section {
     display: flex;
@@ -172,5 +196,10 @@
     justify-content: space-evenly;
     text-align: center;
     gap: 4em;
+  }
+
+  .introduction_section {
+    display: flex;
+    flex-direction: row;
   }
 }
