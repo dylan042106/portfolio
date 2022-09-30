@@ -19,6 +19,7 @@
 .skillset_section {
   grid-column: 1 / -1;
   grid-row: 4 / 5;
+}
 
 .projects_section {
   grid-column: 1 / -1;
@@ -70,71 +71,29 @@
   padding: 2em;
   border-radius: 1.3em;
 }
-
-.project_one_card_lower {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: auto auto;
+.skill_five {
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  padding: 2em;
+  border-radius: 1.3em;
 }
-
-.project_one_name {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
+.skill_six {
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  padding: 2em;
+  border-radius: 1.3em;
 }
-
-.project_one_short_desc {
-  grid-row: 2 / 3;
-  grid-column: 1 / -1;
+.skill_seven {
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  padding: 2em;
+  border-radius: 1.3em;
 }
-
-.project_one_lang_used_box {
-  grid-column: 2 / -1;
-  grid-row: 1 / 2;
-  text-align: right;
-}
-
-.project_two_card_lower {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: auto auto;
-}
-
-.project_two_name {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-
-.project_two_short_desc {
-  grid-row: 2 / 3;
-  grid-column: 1 / -1;
-}
-
-.project_two_lang_used_box {
-  grid-column: 2 / -1;
-  grid-row: 1 / 2;
-  text-align: right;
-}
-
-.project_three_card_lower {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-template-rows: auto auto;
-}
-
-.project_three_name {
-  grid-column: 1 / 2;
-  grid-row: 1 / 2;
-}
-
-.project_three_short_desc {
-  grid-row: 2 / 3;
-  grid-column: 1 / -1;
-}
-
-.project_three_lang_used_box {
-  grid-column: 2 / -1;
-  grid-row: 1 / 2;
-  text-align: right;
+.skill_eight {
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  padding: 2em;
+  border-radius: 1.3em;
 }
 
 @media (min-width: 425px) {
