@@ -20,7 +20,7 @@
           </div>
           <!--end of div class: flexbox_item_nav home_link-->
           <div class="flexbox_item_nav about_me_link">
-            <a id="about_me_link_words" href="#about_me"> about me </a>
+            <a id="about_me_link_words" href="#about_me_part"> about me </a>
           </div>
           <!--end of div class: flexbox_item_nav about_me_link-->
           <div class="flexbox_item_nav skillset_link">
@@ -39,11 +39,11 @@
         <!--end of div class: flexbox_nav_links-->
       </div>
       <!--end of div class: TOP_BAR_NAV_SECTION-->
-      <div class="home_anquor" id="home"></div>
-      <div class="introduction_section">
+      <span id="home"></span>
+      <div class="introduction_section" id="about_me_part">
         <div class="flexbox_box_intro name_and_intro_box">
           <h2 class="intro_name_box_text first_line">DYLAN HERRING</h2>
-          <div class="intro_name_box_text second_line" id="about_me">
+          <div class="intro_name_box_text second_line">
             Full Stack Software Developer
           </div>
         </div>
@@ -96,7 +96,7 @@
             <p class="flexbox_item_intro line_five_box two">
               <span class="number_five">5</span>__other : return None;
             </p>
-            <p class="flexbox_item_intro line_six_box_two" id="skills">
+            <p class="flexbox_item_intro line_six_box_two">
               <span class="number_six">6</span>}
             </p>
           </div>
@@ -104,8 +104,8 @@
       </div>
       <!--end of div class: -->
       <div class="skillset_section">
-        <div class="skills_heading">
-          <h1>My Skills</h1>
+        <div class="skills_heading" id="skills">
+          <h1 class="skills_my_skills">My Skills</h1>
         </div>
         <div class="flexbox_skills_container">
           <div class="skill_one">Python</div>
@@ -130,8 +130,8 @@
             <div class="project_one_card_upper">
             </div>
             <div class="project_one_card_lower">
-             <p class="project_one_name">Peace4Poppies</p>
-              <p class="project_one_short_desc">
+             <h1 class="project_one_name">Peace4Poppies</h1>
+              <p>
                 <p class="text_project_one">
                   Peace4Poppies is a website made from basic HTML and CSS. This
                   website was the second website I made and contains a fixed nav bar
@@ -139,35 +139,49 @@
                 </p>
               </p>
               <div class="project_one_lang_used_box">
-                <p>Source Code</p>
-                <p>Live Demonstration</p>
+                <a class="charity_code_link" href="https://github.com/dylan042106/charity_project">
+                  <p>Source Code</p>
+                </a>
+                <a class="charity_live_link" href="https://dylan042106.github.io/charity_project/">
+                  <p>Live Demonstration</p>
+                </a>
               </div>
             </div>
           </div>
           <div class="project_two_card">
             <div class="project_two_card_upper"></div>
             <div class="project_two_card_lower">
-              <p class="project_two_name">GOAT Website</p>
-              <p class="project_two_short_desc">
-                First website I made with css styles being applied. 
-                Very basic setup and interface but was a great learning experience with using css. 
+              <h1 class="project_two_name">GOAT Website</h1>
+              <p>
+                <p class="project_two_short_desc">
+                  First website I made with css styles being applied. 
+                  Very basic setup and interface but was a great learning experience with using css. 
+                </p>
               </p>
               <div class="project_two_lang_used_box">
-                <p>Source Code</p>
-                <p>Live Demonstration</p>
+                <a class="goat_code_link" href="https://github.com/dylan042106/goat_project">
+                  <p>Source Code</p>
+                </a>
+                <a class="goat_live_link" href=" https://dylan042106.github.io/goat_project/">
+                  <p>Live Demonstration</p>
+                </a>
               </div>
             </div>
           </div>
           <div class="project_three_card">
             <div class="project_three_card_upper"></div>
             <div class="project_three_card_lower">
-              <p class="project_three_name">Color Match</p>
-              <p class="project_three_short_desc">
-                Javascript game I made my sophomore year of highschool. Memory game using color tiles with score, lives, and an adjustable difficulty button.
-                This application was made on CODE.ORG and will be hosted and linked there until update.
+              <h1 class="project_three_name">Color Match</h1>
+              <p>
+                <p class="project_three_short_desc">
+                  Javascript game I made my sophomore year of highschool. Memory game using color tiles with score, lives, and an adjustable difficulty button.
+                  This application was made on CODE.ORG and will be hosted and linked there until update.
+                </p>
               </p>
               <div class="project_three_lang_used_box">
-                <p>Live Demonstration</p>
+                <a class="color_match_link" href="https://studio.code.org/projects/applab/q-R5ZY46hCqm__Mnb3DXbnuy8TvzTMLRiNsdZS2tJ2w">
+                  <p>Live Demonstration</p>
+                </a>
               </div>
             </div>
           </div>
@@ -177,13 +191,19 @@
       <div class="contact_section" id="contact">
         <div class="flexbox_contact_image_links_box">
           <div class="github_image_link">
-            <p>Github</p>
+            <a class="github_link" href="https://github.com/dylan042106">
+              <p id="Github">Github</p>
+            </a>
           </div>
           <div class="linkedIn_image_link">
-            <p>LinkedIn</p>
+            <a class="linkedIn_link" href="www.linkedin.com/in/dylan-herring-461178242">
+              <p id="LinkedIn">LinkedIn</p>
+            </a>
           </div>
           <div class="email_image_link">
-            <p>Email</p>
+            <a class="email_link" href="mailto: dylan04herring@gmail.com">
+              <p id="Email">Email</p>
+            </a>
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@
   gap: 7rem;
 }
 .introduction_section {
+  background-color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,8 +35,9 @@
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  margin-top: 5rem;
-  margin-bottom: 10rem;
+  margin-top: 11rem;
+  margin-bottom: 11rem;
+  gap: 5rem;
 }
 .header_box {
   text-align: center;
@@ -50,7 +52,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2em;
+  gap: 6em;
+  margin-bottom: 20rem;
 }
 
 .flexbox_skills_container {
@@ -96,7 +99,7 @@
   border: 2px solid white;
   padding: 1rem 2rem;
   margin-bottom: 3rem;
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(0, 0, 0);
   border-radius: 1.3em;
   border-top-left-radius: 0rem;
   border-top-right-radius: 0rem;
@@ -123,7 +126,7 @@
 }
 
 .project_two_card_lower {
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(0, 0, 0);
   padding: 1rem 2rem;
   border-radius: 1.3em;
   border: 2px solid white;
@@ -154,7 +157,7 @@
 }
 
 .project_three_card_lower {
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(0, 0, 0);
   border-radius: 1.3em;
   border: 2px solid white;
   padding: 1rem 2rem;
@@ -170,36 +173,25 @@
   display: flex;
   flex-direction: row;
   gap: 3rem;
-  text-align: center;
+  justify-content: center;
 }
 
 .github_image_link {
-  grid-column: 1 / 2;
-  grid-row: 1;
-  background-color: rgb(41, 41, 41);
+  padding: 1rem;
 }
 
 .linkedIn_image_link {
-  grid-column: 2 / -1;
-  background-color: rgb(41, 41, 41);
-}
-
-.replit_image_link {
-  grid-column: 1 / 2;
-  background-color: rgb(41, 41, 41);
+  padding: 1rem;
 }
 
 .email_image_link {
-  grid-column: 2 / -1;
-  grid-row: 2;
-  background-color: rgb(41, 41, 41);
+  padding: 1rem;
 }
 
 .aboutme_box_two {
   background-color: rgb(41, 41, 41);
   border-radius: 1.3em;
   font-size: 0.9em;
-  margin-bottom: 10em;
   padding: 1em;
 }
 
