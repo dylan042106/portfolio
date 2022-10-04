@@ -8,12 +8,10 @@
 .introduction_section {
   grid-column: 1 / -1;
   grid-row: 2 / 3;
-  border-bottom: solid 1px white;
 }
 .about_me_section {
   grid-column: 1 / -1;
   grid-row: 3 / 4;
-  border-bottom: solid 1px white;
 }
 
 .skillset_section {

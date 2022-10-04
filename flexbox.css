@@ -146,7 +146,7 @@
 .project_three_card_upper {
   width: 100%;
   height: 7em;
-  background-image: url("/Images/colormatch.png");
+  background-image: url("portfolio/Images/colormatch.png");
   background-size: cover;
   background-repeat: no-repeat;
   border: 2px solid white;
@@ -203,7 +203,6 @@
   padding: 1em;
 }
 
-
 @media (min-width: 425px) {
   .project_one_card_upper {
     min-height: 15em;
@@ -217,7 +216,6 @@
     min-height: 15em;
   }
 }
-
 
 @media (min-width: 768px) {
   .top_nav_bar_section {
