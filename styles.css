@@ -117,6 +117,7 @@ h1 {
 .project_header {
   text-align: center;
   margin-bottom: 2em;
+  margin-top: 4rem;
 }
 
 .skills_my_skills {
@@ -126,49 +127,78 @@ h1 {
 .goat_code_link {
   color: white;
   text-decoration: none;
+}
+.goat_code_link:hover {
+  color: #57a8f4ee;
   font-weight: bold;
 }
+
 .goat_live_link {
   color: white;
   text-decoration: none;
+}
+.goat_live_link:hover {
+  color: #57a8f4ee;
   font-weight: bold;
 }
 
 .charity_code_link {
   color: white;
   text-decoration: none;
+}
+.charity_code_link:hover {
+  color: #57a8f4ee;
   font-weight: bold;
 }
+
 .charity_live_link {
   color: white;
   text-decoration: none;
+}
+.charity_live_link:hover {
+  color: #57a8f4ee;
   font-weight: bold;
 }
 
 .color_match_link {
   color: white;
   text-decoration: none;
+}
+.color_match_link:hover {
+  color: #57a8f4ee;
   font-weight: bold;
 }
 
-.text_project_one {
-  max-width: 60%;
-  margin: auto;
+.github_link {
+  color: white;
+  text-decoration: none;
+}
+.github_link:hover {
+  color: #57a8f4ee;
+  font-weight: bold;
 }
 
-.text_project_two {
-  max-width: 60%;
-  margin: auto;
+.linkedIn_link {
+  color: white;
+  text-decoration: none;
+}
+.linkedIn_link:hover {
+  color: #57a8f4ee;
+  font-weight: bold;
 }
 
-.text_project_three {
-  max-width: 60%;
-  margin: auto;
+.email_link {
+  color: white;
+  text-decoration: none;
+}
+.email_link:hover {
+  color: #57a8f4ee;
+  font-weight: bold;
 }
 
 @media (min-width: 768px) {
   .introduction_section {
-    margin-top: 4em;
+    margin-top: 2em;
   }
 }
 
