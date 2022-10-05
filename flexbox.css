@@ -33,11 +33,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   margin-top: 11rem;
   margin-bottom: 11rem;
-  gap: 5rem;
+  gap: 2rem;
 }
 .header_box {
   text-align: center;
@@ -45,6 +45,15 @@
   font-weight: bold;
   padding: 1em;
   margin-bottom: 1em;
+}
+.code_box {
+  max-width: 70%;
+  background-color: rgb(41, 41, 41);
+  margin: auto;
+  text-align: center;
+  padding: 3rem;
+  border-radius: 1em;
+  line-height: 2em;
 }
 
 .skillset_section {
@@ -81,6 +90,8 @@
 
 .project_one_card {
   display: flex;
+  max-width: 69%;
+  margin: auto;
   flex-direction: column;
   margin-bottom: 10em;
 }
@@ -111,6 +122,8 @@
 
 .project_two_card {
   display: flex;
+  max-width: 69%;
+  margin: auto;
   flex-direction: column;
   margin-bottom: 10em;
 }
@@ -142,6 +155,8 @@
 .project_three_card {
   display: flex;
   flex-direction: column;
+  max-width: 69%;
+  margin: auto;
   margin-bottom: 7em;
   margin-bottom: 10em;
 }
