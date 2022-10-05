@@ -78,7 +78,7 @@
 
 .flexbox_nav_links {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   text-align: center;
   gap: 4em;
 }
