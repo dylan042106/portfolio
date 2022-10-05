@@ -104,6 +104,8 @@
   background-repeat: no-repeat;
   border: 2px solid white;
   border-bottom: 0px;
+  border-top-left-radius: 1.3em;
+  border-top-right-radius: 1.3em;
 }
 
 .project_one_card_lower {
@@ -136,6 +138,8 @@
   background-repeat: no-repeat;
   border: 2px solid white;
   border-bottom: 0px;
+  border-top-left-radius: 1.3em;
+  border-top-right-radius: 1.3em;
 }
 
 .project_two_card_lower {
@@ -169,6 +173,8 @@
   background-repeat: no-repeat;
   border: 2px solid white;
   border-bottom: 0px;
+  border-top-left-radius: 1.3em;
+  border-top-right-radius: 1.3em;
 }
 
 .project_three_card_lower {
